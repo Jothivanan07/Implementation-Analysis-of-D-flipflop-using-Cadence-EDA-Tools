@@ -1,21 +1,23 @@
-# Implementation-Analysis-of-D-flipflop-using-Cadence-EDA-Tools
-Ex No: 01     Implementation & Analysis of D-flipflop using Cadence EDA Tools   
+## Ex No: 03     Implementation & Analysis of D-flipflop using Cadence EDA Tools   
 
-Aim:
+## Aim:
 To design and implement a D-flip-flop using Cadence EDA tools, simulate its behavior, and analyze key performance parameters such as timing, power consumption, and resource utilization for a comprehensive understanding of sequential logic circuits.
 
-Tools Required:
+## Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+## Circuit Diagram
+![IMG-20241115-WA0008](https://github.com/user-attachments/assets/e21d408b-0416-437d-81e0-e5781a11717d)
+
+## S C H E M A T I C S I M U L A T I O N 
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
 •	virtuoso 
-Procedure for Schematic simulation using Cadence
+## Procedure for Schematic simulation using Cadence
 
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
@@ -86,7 +88,7 @@ iv)	Creating the new test cell view
 
 
  
-Analog simulation by SPECTRE.
+## Analog simulation by SPECTRE.
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -101,7 +103,7 @@ Analog simulation by SPECTRE.
 
 
 
-For Transient Analysis Settings and Output
+## For Transient Analysis Settings and Output
  
 ![Screenshot 2024-10-19 182209](https://github.com/user-attachments/assets/ac42e513-b6c8-4c78-9242-3f5ec15152a7)
 
@@ -109,7 +111,7 @@ For Transient Analysis Settings and Output
 
 
 
-Results:
+## Results:
 The design and implementation of the D-flip-flop using Cadence EDA tools were successfully completed. The simulated results confirmed the correct operation of the flip-flop, with proper synchronization of the input data with the clock signal. Key performance parameters such as propagation delay, power consumption, and area utilization were evaluated, aligning with expected theoretical values.
 
 
